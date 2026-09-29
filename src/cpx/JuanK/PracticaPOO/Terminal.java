@@ -27,8 +27,7 @@ public class Terminal {
 		return esTargetaValida && esMontoValido && cantCuotasVal;
 	}
 	
-	private double recargoCuotas(int canCuotas) {
-		
-		return 0.0;
+	private double recargoCuotas(int cantCuotas) {
+		return (cantCuotas - 1) * CUOTA;
 	}
 }

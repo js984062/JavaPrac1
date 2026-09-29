@@ -10,6 +10,14 @@ public class Tiket {
 		this.montoTotal = montoTotal;
 		this.montoPorCuota = montoPorCuota;
 	}
+
+	@Override
+	public String toString() {
+		return "Tiket [nombreApellido=" + nombreApellido + ", montoTotal=" + montoTotal + ", montoPorCuota="
+				+ montoPorCuota + "]";
+	}
+	
+	
 	
 	
 	
