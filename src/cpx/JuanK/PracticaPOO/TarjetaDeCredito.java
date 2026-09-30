@@ -7,7 +7,9 @@ public class TarjetaDeCredito {
 	private Persona titular;
 	private EntidadFinanciera entidadFinanciera;
 	
-	
+	//tiene como atrobitos una entidad bancaria (dq banco es)
+	//unmero de tarjeta y dinero
+	//y tiene un titular de tipo persona
 	public TarjetaDeCredito(String entidadBancaria, String numero, double saldo, Persona titular,
 			EntidadFinanciera entidadFinanciera) {
 		this.entidadBancaria = entidadBancaria;

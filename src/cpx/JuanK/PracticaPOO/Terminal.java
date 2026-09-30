@@ -6,6 +6,8 @@ public class Terminal {
 	public static final double MIN_CUOTA = 1; //final es por que no puede cambiar
 	public static final double MAX_CUOTA = 6; //static son de clase
 	
+	//la terminal regresa un obj de tipo tiket
+	//la terminal hace las operaciones 
 	public Tiket realizarPago(TarjetaDeCredito tarjeta, double montoAbonar,int cantCuota) {
 		Tiket elTiket = null; //sera null hasta que demuestre lo contrario
 		if( datosValidos(tarjeta, montoAbonar,cantCuota) ) {
